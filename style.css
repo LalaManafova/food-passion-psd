@@ -1,0 +1,494 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.visuallyhidden:not(:focus):not(:active) {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          margin: -1px;
+          border: 0;
+          padding: 0;
+          white-space: nowrap;
+          clip-path: inset(100%);
+          clip: rect(0 0 0 0);
+          overflow: hidden;
+	}
+	
+	html{
+		scroll-behavior: smooth;
+	}
+
+	body{
+		margin: 0 auto;
+		padding: 0;
+		max-width: 100%;
+	}
+	                              /*=============Side Menu==========*/
+    .header{
+    	background: url('assets/image-1.jpeg') no-repeat;
+    	background-size: cover;
+		display: flex;
+		font-family: 'Roboto', sans-serif;
+    }
+
+    .logo{
+		margin: 5px;
+	}
+    .social{
+    	background: #23292c;
+		opacity: 0.7;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 55%;
+    }
+
+    li, a{
+    	list-style: none;
+    	text-transform: uppercase;
+		text-decoration: none;
+    	color: grey;
+	}
+	
+	header li, header a, header p {
+		font-size: 12px;
+	}
+
+    .twitter-logo{
+		color: #e1560e;
+	}
+	
+	.headerSocial{
+		width: 150px;
+	}
+
+	.marine{
+		margin: 5px;
+	}
+
+    .headerSocial li:hover a,
+    .portfolio{
+    	color: white;
+    }
+
+    .checkout{
+    	line-height: 1.5;
+    	text-align: center;
+    }
+
+	.minute{
+		text-transform: uppercase;
+		font-size: 10px;
+    	padding-bottom: 35px;
+	}
+
+	.marine a{
+		color: #e1560e;
+	}
+
+	p.reserved{
+		width: 8.2rem;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+    header p{
+    	color: grey;
+    }
+
+   .social i{
+	margin: 5px;
+   }
+
+    .rights a:hover i{
+    	color: white;
+    	display: inline-block;
+    }
+
+
+				/*=============Food Passion=========*/
+
+.wrapper{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 8%
+}
+
+.main-logo{
+	max-width: 100%;
+	margin-bottom: 10%;
+}
+
+.header-button{
+	background-color: #e1560e;
+	border: none;
+	padding: 5% 15%;
+	font-size: 10px;
+	color: white;
+}
+
+
+				/*=============Section1==========*/
+
+.section1{
+	margin: 0 auto;
+	width: 100%;
+	background: #eae5d6;
+	display: flex;
+    justify-content: flex-end;
+}
+
+.about{
+	width: 30%;
+}
+
+@media (max-width: 1070px){
+	.section1{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.chef{
+	float: left;
+	width: 20%;
+	border-radius: 100%;
+}
+
+.chef-with-coffee{
+	float: right;
+	width: 100%;
+
+}
+
+.chef-with-coffee-container{
+	float: right;
+	width: 50%;
+}
+
+.about-chefs{
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+	margin-top: 20%;
+}
+span,
+.title-chef{
+	color: #e1560e;
+}
+
+.class-aptent{
+	content: darkgrey;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.gustave,
+.title-chef,
+.food-type ul li a{
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover i{
+	color: #e1560e;
+}
+
+				/*===================Section2===============*/
+
+.section2{
+	margin: 0 auto;
+	width: 100%;
+	background:#23292c;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery{
+	margin: 0;
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+}
+
+.our-gallery{
+	text-align: center;
+	width: 50%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.section2 ul{
+	border-style: solid;
+	border-color: #4f585c;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	background: #2a3336;
+}
+
+.food-type{
+	width: 50%;
+	min-width: 450px;
+}
+
+.food-type a, .our-gallery p{
+	color: white;
+}
+
+.food-type li:hover a{
+	color: #e1560e;
+}
+
+.food-type ul li{
+	margin: 5%;
+}
+
+.foods{
+	padding-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.foods-image{
+	width: 20%;
+	height: 20%;
+}
+
+@media (max-width: 1070px){
+	.foods-image{
+		width: 50%;
+		height: 50%;
+	}
+}
+						/*================Section 3==================*/
+
+.section3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.our-services{
+	text-align: center;
+	width: 50%;
+}
+
+.our-breakfast, .our-services{
+	margin-top: 3%;
+}
+
+.services-text{
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+}
+
+.general-services{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-family: 'Noto Sans', sans-serif;
+	width: 80%;
+}
+
+.general-services-meal{
+	margin: 5% 0 5% 0;
+}
+
+@media (max-width: 1070px){
+	.general-services{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.general-services p{
+	font-size: 10px;
+	width: 80%;
+	margin: 0 10% 0 10%;
+	line-height: 1.5;
+}
+.general-services h1{
+	font-size: 20px;
+}
+
+.general-services img{
+	width: 80px;
+	height: 65px;
+}
+
+
+
+					/*=================Section 4================*/
+
+.section4{
+	background-color: grey; 
+	background: linear-gradient(rgba(51, 51, 51, 0.80), rgba(51, 51, 51, 0.80)), url('assets/image-13-2.jpg') no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.section4 h1, .section4 p{
+	color: white;
+}
+
+.menu-container{
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 1070px){
+	.menu-container{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.menu-left, .menu-right{
+	margin: 2%;
+}
+
+.menu-left p, .menu-right p{
+	width: 101%;
+}
+
+.menu1 p, h5,
+.menu p, h5{
+	margin: 0 auto;
+	color: white;
+	line-height: 2;
+}
+
+.view-details-button{
+	background-color: #e1560e;
+	padding: 2% 5%;
+	font-size: 12px;
+	color: white;
+	outline: 0;
+	border: 0;
+	text-transform: uppercase;
+	margin: 3% 0%;
+}
+
+                /*------------------- Footer --------------------*/
+
+footer{
+	background-color: #23292C;
+	position: relative;
+}
+
+.map img{
+	width: 100%;
+}
+
+img.mapmarker{
+	width: 20px;
+	position: absolute;
+	top: 7%;
+	left: 50%;
+}
+
+.footer-contact{
+	position: absolute;
+	left: 35%;
+	bottom: 30%;
+	display: flex;
+}
+
+.contact{
+	background: white;
+	width: 350px;
+	height: 320px;
+}
+fieldset{
+	border: none;
+	padding: 0;
+	padding-left: 5px;
+}
+
+input, 
+textarea{
+	width: 95%;
+	margin: 2px;
+	padding: 1%;
+}
+
+textarea{
+	height: 70px;
+}
+.contact h1{
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+}
+
+input.email{
+	background: url('https://image.freepik.com/iconen-gratis/e-mail-envelop-ios-7-interface-symbool_318-35307.jpg');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 100%;
+	border: 1px solid;
+	border-color: #dbd4d4;
+}
+
+input.name{
+	background: url('http://www.iconhot.com/icon/png/token-dark/256/contact-19.png');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 100%;
+	border: 1px solid grey;
+	border-color: #dbd4d4;
+}
+
+.send-message{
+	border: solid ;
+	background: white;
+	margin: 5% 5% 30% 30%;
+	padding: 4%;
+	border-color: #dbd4d4;
+}
+
+.footer-icons{
+	float: left; 
+	margin: 7%;
+    width: 150px;
+}
+
+.footer-icons a{
+	margin-left: 5%;
+}
+
+.contact-details{
+	color: white;
+	float: right;
+	margin: 7%;
+}
+
+@media (max-width: 1070px){
+	.contact-details{
+		margin: 2%;
+	}
+}
+
+.logo2{
+	margin: 5% 5% 20% 5%;
+}
+
+.address, .number, .contact-email{
+	display: flex;
+}
+
+.contact-details img{
+	height: 25px;
+	widows: 25px;
+	margin: 5%;
+}
+
+.footer-p-container{
+	font-family: 'Noto Sans', sans-serif;;
+}
